@@ -18,8 +18,13 @@ header {
 #contenedor-destacados {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> 22c1e41c91bf2e17dc9455baea731f620bce94b3
 .destacados-container { 
     display: flex; 
+    }
 /* ESTUDIANTE A - FASE A
    Cambios realizados:
    1. Cambié #contenedor-destacados de display: flex a display: grid
