@@ -4,6 +4,7 @@ body {
     line-height: 1.6; 
     margin: 0;
     padding: 0;
+    background-color: lightblue;
 }
 
 header { 
@@ -12,9 +13,13 @@ header {
     padding: 1rem; 
 }
 
-/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
+/* ESTUDIANTE A - FASE A
+   Cambios realizados:
+   1. Cambié #contenedor-destacados de display: flex a display: grid
+   2. Agregué background-color: lightblue al body
+*/
 #contenedor-destacados { 
-    display: flex; 
+    display: grid;
     gap: 20px; 
     padding: 20px;
 }
