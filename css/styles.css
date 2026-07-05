@@ -1,21 +1,32 @@
 /* css/styles.css */
-body { 
-    font-family: sans-serif; 
-    line-height: 1.6; 
+
+/* Estilos base */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: lightblue; /* Decisión final: se conservó el cambio del Estudiante A (Fase A) */
 }
 
-header { 
-    background: #333; 
-    color: white; 
-    padding: 1rem; 
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
 }
 
-/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
-#contenedor-destacados { 
-    display: flex; 
-    gap: 20px; 
+/*
+   Contenedor de ofertas destacadas.
+   Decisión de conflicto (ver CONFLICTS_LOG.md):
+   - Estudiante C renombró el selector de #contenedor-destacados a .destacados-container
+     en todo el archivo, por lo que se usa la clase como único selector.
+   - Estudiante A propuso display: grid; se conservó esta opción sobre el display: flex
+     de Estudiante B para el layout final.
+*/
+.destacados-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
@@ -23,4 +34,5 @@ header {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
+    background-color: white;
 }
