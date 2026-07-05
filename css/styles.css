@@ -18,7 +18,10 @@ header {
 #contenedor-destacados {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
     }
+>>>>>>> 22c1e41c91bf2e17dc9455baea731f620bce94b3
 .destacados-container { 
     display: flex; 
     }
@@ -37,4 +40,5 @@ header {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
+}
 }
