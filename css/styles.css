@@ -13,6 +13,8 @@ header {
     padding: 1rem; 
 }
 
+.destacados-container { 
+    display: flex; 
 /* ESTUDIANTE A - FASE A
    Cambios realizados:
    1. Cambié #contenedor-destacados de display: flex a display: grid
