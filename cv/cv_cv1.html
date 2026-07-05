@@ -1,1 +1,151 @@
 <h1>Hoja de Vida 1</h1>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Jose Manuel López Olives</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  header {
+    background: linear-gradient(135deg, #2c3e50, #4a6fa5);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+  header p {
+    font-size: 15px;
+    opacity: 0.9;
+  }
+  .contact-links {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .contact-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  .contact-links a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 20px 30px;
+  }
+  section h2 {
+    font-size: 18px;
+    color: #4a6fa5;
+    border-bottom: 2px solid #4a6fa5;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 8px;
+    padding-left: 18px;
+    position: relative;
+  }
+  ul li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #4a6fa5;
+  }
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .skill-tag {
+    background: #eaf1fb;
+    color: #2c3e50;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+
+<div class="cv-container">
+  <header>
+    <h1>Jose Manuel López Olives</h1>
+    <p>Estudiante de Ingeniería en Sistemas de Información - UCE</p>
+    <div class="contact-links">
+      <a href="https://www.facebook.com/" target="_blank">Facebook: Jx Lopezz</a> |
+      <a href="https://www.tiktok.com/" target="_blank">TikTok: .lopezzz10</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Perfil</h2>
+    <p>Estudiante de la carrera de Sistemas de Información en la Universidad Central del Ecuador y estudiante de KRAKEDEV,
+    con experiencia en desarrollo de aplicaciones Java (POO, patrones de diseño, persistencia de datos),
+    desarrollo web con HTML, CSS y JavaScript, y manejo de control de versiones con Git y GitHub.
+    Interesado en el desarrollo de software colaborativo y buenas prácticas de trabajo en equipo.</p>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <ul>
+      <li>Universidad Central del Ecuador (UCE) — Ingeniería en Sistemas de Información (en curso)</li>
+        <li>KRAKE DEV — Desarrolo de software y programacion (en curso)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proyectos Destacados</h2>
+    <ul>
+      <li>Githubs-Soccer: proyecto colaborativo en GitHub con flujo de trabajo mediante Pull Requests.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-grid">
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">HTML / CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">Git / GitHub</span>
+      <span class="skill-tag">Programación Orientada a Objetos</span>
+      <span class="skill-tag">Stream API</span>
+      <span class="skill-tag">Resolución de conflictos en Git</span>
+    </div>
+  </section>
+
+  <footer>
+    CV generado como parte del proyecto TalentLink — Examen Final
+  </footer>
+</div>
+
+</body>
+</html>
