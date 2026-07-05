@@ -12,8 +12,7 @@ header {
     padding: 1rem; 
 }
 
-/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
-#contenedor-destacados { 
+.destacados-container { 
     display: flex; 
     gap: 20px; 
     padding: 20px;
