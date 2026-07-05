@@ -14,12 +14,10 @@ header {
     padding: 1rem; 
 }
 
-<<<<<<< HEAD
 /* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
 #contenedor-destacados {
     display: flex;
     flex-direction: column;
-=======
 .destacados-container { 
     display: flex; 
 /* ESTUDIANTE A - FASE A
@@ -29,7 +27,6 @@ header {
 */
 #contenedor-destacados { 
     display: grid;
->>>>>>> 3663d93745fe032a77278dae212d88d69397b5ad
     gap: 20px; 
     padding: 20px;
 }
@@ -40,4 +37,3 @@ header {
     border-radius: 5px;
 }
 }
-
