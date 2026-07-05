@@ -1,15 +1,5 @@
-<main>
-        <h2>Bienvenidos al portal</h2>
-        <p>La plataforma líder para conectar talento joven con empresas.</p>
-        
-        <!-- Estudiante C: Cambió el id por la clase .destacados-container -->
-        <div class="destacados-container">
-            <!-- Oferta C agregada por Estudiante C -->
-            <div class="card">
-                <h3>Oferta C: Desarrollador Frontend Junior</h3>
-                <p>Empresa: TechSolutions. Requisitos: Conocimientos en HTML, CSS y Git.</p>
-            </div>
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -32,10 +22,12 @@
     <main>
         <h2>Bienvenidos al portal</h2>
         <p>La plataforma líder para conectar talento joven con empresas.</p>
-        <div id="contenedor-destacados">
+        
+        <!-- CONTENEDOR DE OFERTAS - Estudiante C cambió a .destacados-container -->
+        <div class="destacados-container">
             <!-- OFERTA A - Estudiante A -->
             <div class="card">
-                <h3>Desarrollador Web Junior</h3>
+                <h3>Desarrollador Web Junior - Estudiante A</h3>
                 <p><strong>Empresa:</strong> TechSolutions Ecuador</p>
                 <p><strong>Ubicación:</strong> Quito, Pichincha</p>
                 <p><strong>Modalidad:</strong> Presencial</p>
@@ -50,16 +42,37 @@
                 </p>
                 <p><strong>Salario:</strong> $800 - $1200 USD</p>
                 <p><strong>Fecha límite:</strong> 15 de julio 2026</p>
-                <button>Ver detalles</button>
             </div>
 
             <!-- OFERTA B - Estudiante B -->
-            <section id="oferta-b" class="oferta">
-                <h2>Oferta B: Desarrollo de Sistemas y Soporte Técnico</h2>
-                <p>Optimización completa de equipos, formateo e instalación de sistemas operativos avanzados.</p>
-            </section>
+            <div class="card">
+                <h3>Oferta B: Desarrollo de Sistemas y Soporte Técnico</h3>
+                <p><strong>Descripción:</strong> Optimización completa de equipos, formateo e instalación de sistemas operativos avanzados.</p>
+                <p><strong>Empresa:</strong> SystemsPlus</p>
+                <p><strong>Requisitos:</strong>
+                    <ul>
+                        <li>Sistemas operativos (Windows, Linux)</li>
+                        <li>Soporte técnico básico</li>
+                        <li>Networking</li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- OFERTA C - Estudiante C -->
+            <div class="card">
+                <h3>Oferta C: Desarrollador Frontend Junior</h3>
+                <p><strong>Empresa:</strong> TechSolutions</p>
+                <p><strong>Requisitos:</strong>
+                    <ul>
+                        <li>Conocimientos en HTML</li>
+                        <li>CSS avanzado</li>
+                        <li>Git</li>
+                    </ul>
+                </p>
+            </div>
         </div>
     </main>
+
     <footer>
         <!-- Estudiante C: Modificación de la información de contacto -->
         <p>© 2026 Portal de Empleo - Contacto Urgente: soporte@talentlink.edu | Telf: +593 0999999</p>
